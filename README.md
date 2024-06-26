@@ -23,6 +23,12 @@ O layout da aplicação não está disponível neste momento.
 A estrutura das funcionalidades da aplicação pode ser acessada em: https://trello.com/b/OKIUKgxe/alura-f%C3%B3rum-challenge-one-sprint-01
 
 ---
+## 🎥 Demonstração
+
+Aqui está um vídeo demonstrativo do projeto:
+
+https://github.com/LaviniaBDantas/ForumHub/assets/104510782/e87d4f80-f9cb-4ebc-988d-f3a9c1903e1d
+
 
 ## 🛠 Tecnologias
 
