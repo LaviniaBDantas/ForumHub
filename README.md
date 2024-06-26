@@ -1,6 +1,6 @@
 ## 💻 Sobre o projeto
 
-FórumHub é um espaço onde os participantes de uma plataforma podem colocar suas perguntas sobre determinados assuntos. Este projeto é uma API REST desenvolvida em Spring Boot que permite a criação, listagem, atualização e exclusão de tópicos, replicando o funcionamento de um fórum de discussão.
+FórumHub é uma API REST desenvolvida em Spring Boot para um fórum de discussão, permitindo a criação, listagem, atualização e exclusão de tópicos.
 
 ---
 
@@ -12,23 +12,13 @@ FórumHub é um espaço onde os participantes de uma plataforma podem colocar su
 
 ---
 
-## 🎨 Layout
-
-O layout da aplicação não está disponível neste momento.
-
----
-
-## 📄 Documentação
-
-A estrutura das funcionalidades da aplicação pode ser acessada em: https://trello.com/b/OKIUKgxe/alura-f%C3%B3rum-challenge-one-sprint-01
-
----
 ## 🎥 Demonstração
 
 Aqui está um vídeo demonstrativo do projeto:
 
-https://github.com/LaviniaBDantas/ForumHub/assets/104510782/e87d4f80-f9cb-4ebc-988d-f3a9c1903e1d
+[Assista ao vídeo demo](https://github.com/LaviniaBDantas/ForumHub/assets/104510782/e87d4f80-f9cb-4ebc-988d-f3a9c1903e1d)
 
+---
 
 ## 🛠 Tecnologias
 
@@ -36,6 +26,8 @@ As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do proj
 
 - **[Java 17](https://www.oracle.com/java)**
 - **[Spring Boot 3](https://spring.io/projects/spring-boot)**
+- **[Spring Security](https://spring.io/projects/spring-security)**
+- **[JWT (JSON Web Token)](https://jwt.io)**
 - **[Maven](https://maven.apache.org)**
 - **[MySQL](https://www.mysql.com)**
 - **[Hibernate](https://hibernate.org)**
@@ -44,9 +36,19 @@ As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do proj
 
 ---
 
-## 📝 Licença
+## 🔒 Autenticação
 
-Projeto desenvolvido por [Lavínia Barbosa](https://github.com/LaviniaBDantas). Utilizado como aprendizado nos cursos de Spring Boot da Alura.
+Para interagir com a API, é necessário autenticar-se. Implementamos um sistema de autenticação utilizando tokens JWT (JSON Web Token):
+
+- Acesse a rota [http://localhost:8080/login](http://localhost:8080/login) para obter um token JWT válido.
+- O token JWT deve ser incluído no cabeçalho de autorização de todas as requisições subsequentes.
+- Utilize a biblioteca JWT.io para gerenciar tokens JWT na sua aplicação.
+
+---
+
+## 📄 Documentação
+
+A estrutura das funcionalidades da aplicação pode ser acessada em: [Trello - ForumHub](https://trello.com/b/OKIUKgxe/alura-f%C3%B3rum-challenge-one-sprint-01)
 
 ---
 
@@ -59,7 +61,7 @@ Projeto desenvolvido por [Lavínia Barbosa](https://github.com/LaviniaBDantas). 
 
 ## 🏛️ História
 
-Bem-vindo ao nosso mais recente desafio Challenge Back End!
+Bem-vindo ao desafio Challenge Back End!
 
 Um fórum é um espaço onde todos os participantes de uma plataforma podem colocar suas perguntas sobre determinados assuntos.
 
@@ -85,5 +87,11 @@ Em resumo, nosso objetivo com este challenge é implementar uma API REST com as 
 - Validações realizadas segundo as regras de negócio;
 - Implementação de uma base de dados relacional para a persistência da informação;
 - Serviço de autenticação/autorização para restringir o acesso à informação.
+
+---
+
+## 📝 Licença
+
+Projeto desenvolvido por [Lavínia Barbosa](https://github.com/LaviniaBDantas). Utilizado como aprendizado nos cursos de Spring Boot da Alura.
 
 ---
